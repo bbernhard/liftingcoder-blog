@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Mindful Picture Frame | Liftingcoder Blog</title>
+<meta name="title" content="Mindful Picture Frame" />
+<meta name="description" content="Who knows this problem? Over the years, one has accumulated gigabytes of photos, capturing a snapshot of every moment worth remembering, only to hardly ever look at the photos again. That&rsquo;s how it was for me too - on my Nextcloud Share, there are tens of thousands of photos, neatly organized and sorted, condemned to gather digital dust.
+But I wanted to change that. And thus, the Mindful Picture Frame was born." />
+<meta name="keywords" content="projects," />
+
+
+<meta property="og:title" content="Mindful Picture Frame" />
+<meta property="og:description" content="Who knows this problem? Over the years, one has accumulated gigabytes of photos, capturing a snapshot of every moment worth remembering, only to hardly ever look at the photos again. That&rsquo;s how it was for me too - on my Nextcloud Share, there are tens of thousands of photos, neatly organized and sorted, condemned to gather digital dust.
+But I wanted to change that. And thus, the Mindful Picture Frame was born." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/mindful-picture-frame/" /><meta property="og:image" content="http://localhost:1313/images/share.png" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-07-28T10:01:25+02:00" />
+<meta property="article:modified_time" content="2021-07-28T10:01:25+02:00" /><meta property="og:site_name" content="Liftingcoder Blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/images/share.png" /><meta name="twitter:title" content="Mindful Picture Frame"/>
+<meta name="twitter:description" content="Who knows this problem? Over the years, one has accumulated gigabytes of photos, capturing a snapshot of every moment worth remembering, only to hardly ever look at the photos again. That&rsquo;s how it was for me too - on my Nextcloud Share, there are tens of thousands of photos, neatly organized and sorted, condemned to gather digital dust.
+But I wanted to change that. And thus, the Mindful Picture Frame was born."/>
+
+
+
+<meta itemprop="name" content="Mindful Picture Frame">
+<meta itemprop="description" content="Who knows this problem? Over the years, one has accumulated gigabytes of photos, capturing a snapshot of every moment worth remembering, only to hardly ever look at the photos again. That&rsquo;s how it was for me too - on my Nextcloud Share, there are tens of thousands of photos, neatly organized and sorted, condemned to gather digital dust.
+But I wanted to change that. And thus, the Mindful Picture Frame was born."><meta itemprop="datePublished" content="2021-07-28T10:01:25+02:00" />
+<meta itemprop="dateModified" content="2021-07-28T10:01:25+02:00" />
+<meta itemprop="wordCount" content="529"><meta itemprop="image" content="http://localhost:1313/images/share.png" />
+<meta itemprop="keywords" content="projects," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+<style>
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+</style>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Liftingcoder Blog</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+
+</nav>
+</header>
+  <main>
+
+<h1>Mindful Picture Frame</h1>
+<p>
+  <i>
+    <time datetime='2021-07-28' pubdate>
+      28 Jul, 2021
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>Who knows this problem? Over the years, one has accumulated gigabytes of photos, capturing a snapshot of every moment worth remembering, only to hardly ever look at the photos again. That&rsquo;s how it was for me too - on my Nextcloud Share, there are tens of thousands of photos, neatly organized and sorted, condemned to gather digital dust.</p>
+<p>But I wanted to change that. And thus, the Mindful Picture Frame was born. The idea is quite simple: I want a digital, battery-powered photo frame based on an E-ink display, which shows a photo taken exactly x years ago today. Although an E-ink display is notoriously ill-suited for displaying images compared to other display technologies, its use was a deliberate choice.</p>
+<p>On one hand, it allowed me to operate the picture frame on battery power (with a runtime of several months), and on the other hand, the black-and-white, poorly resolved images remind me of pictures from old newspapers.</p>
+<p>The project was divided into two parts: the actual picture frame and the &ldquo;server component.&rdquo;</p>
+<h2 id="the-picture-frame">The Picture Frame</h2>
+<p>For the picture frame, I used the <a href="https://www.crowdsupply.com/soldered/inkplate-6">Inkplate 6</a> Display Board from Soldered Electronics. This is a recycled 6&rsquo;&rsquo; Kindle E-paper Display, which is controlled by an ESP32 and can be powered by an external 3.3V battery. According to the product description of the Inkplate 6 board, it only requires 25uA in deep sleep mode, making it ideal for battery-powered operation over months. Unfortunately, my board had a defect and consumed significantly more power in deep sleep mode than stated by the manufacturer, causing the 3.3V 18650 battery I used for power to drain within a few weeks.</p>
+<p>To fix the problem, I designed a small &ldquo;Wake-Up-PCB&rdquo; based on the ATtiny10 (which requires only a few nanoamperes in deep sleep mode).</p>
+<figure class="center-image"><img src="/images/wakeup-board-schematic.png"
+    alt="Wake-Up Board Schematic"><figcaption>
+      <p>Wake-Up Board Schematic</p>
+    </figcaption>
+</figure>
+
+<p>The sole duty of the ATtiny microcontroller is to awaken every 30 minutes and trigger a MOSFET, thereby supplying power to the Inkplate board for approximately 10 seconds, enabling it to update the image. Due to the ATtiny10 predominantly residing in deep sleep mode and the Inkplate board remaining entirely dormant, a runtime exceeding 6 months can be attained with a 3.3V 2500mAh battery, while ensuring the image is refreshed every half hour.</p>
+<figure class="center-image"><img src="/images/wakeup-board-rendering.png"
+    alt="Wake-Up Board 3D Rendering"><figcaption>
+      <p>Wake-Up Board 3D Rendering</p>
+    </figcaption>
+</figure>
+
+<p>For the frame, I aimed for a simple wooden design to amplify the nostalgia. With only a 3D printer available at the time, I experimented with a wood-fiber filament and wood staining.  Apart from the significantly lighter weight of the faux-wood frame, in my opinion, it closely resembles a real wooden frame.</p>
+<figure class="center-image"><img src="/images/mindful-picture-frame.jpg"
+    alt="Mindful Picture Frame"><figcaption>
+      <p>The Picture Frame in all its glory (with a picture that was taken 13 years ago)</p>
+    </figcaption>
+</figure>
+
+<h2 id="the-server-component">The Server Component</h2>
+<p>To update the image on the digital picture frame, the Inkplate board connects via WiFi to a locally running <a href="https://github.com/bbernhard/mindfulbytes">Mindfulbytes Server</a> and retrieves the image to display via REST. Mindfulbytes is a plugin-based application I wrote, which collects all locally available digital assets and provides them, along with their associated metadata (e.g., EXIF metadata), via REST. This makes it easy to retrieve either a random image or an image taken on that day via REST and display it on the Inkplate 6.</p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/projects/">#Projects</a>
+  
+</p>
+
+  </main>
+  <footer><a href="https://github.com/bbernhard">Github</a>
+</footer>
+
+  <style>
+
+.right-image {
+  float:right;
+  max-width: 40%;
+  margin-left: 5px
+}
+
+.left-image {
+  float:left;
+  max-width: 40%;
+  margin-right: 20px
+}
+
+.center-image {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+</style>
+</body>
+
+</html>

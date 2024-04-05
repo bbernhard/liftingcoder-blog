@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2023-09-13T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2023-09-13T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/laser-cut-city-map/</loc>
+    <lastmod>2023-09-13T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/projects/</loc>
+    <lastmod>2023-09-13T18:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/useless-machine/</loc>
+    <lastmod>2022-01-16T16:03:54+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/mindful-picture-frame/</loc>
+    <lastmod>2021-07-28T10:01:25+02:00</lastmod>
+  </url>
+</urlset>

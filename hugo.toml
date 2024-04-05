@@ -14,6 +14,8 @@ languageCode = "en-US"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+publishDir = "docs"
+
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]

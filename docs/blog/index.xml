@@ -7,28 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2024, Bernhard B.</copyright>
-    <lastBuildDate>Wed, 13 Sep 2023 18:00:00 +0200</lastBuildDate>
-    <atom:link href="https://liftingcoder.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Sep 2024 13:01:25 +0200</lastBuildDate><atom:link href="https://liftingcoder.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Button</title>
+      <link>https://liftingcoder.com/music-button/</link>
+      <pubDate>Wed, 11 Sep 2024 13:01:25 +0200</pubDate>
+      
+      <guid>https://liftingcoder.com/music-button/</guid>
+      <description>Recently I stumbled across a big arcade button on Amazon. You know, that big red buzzer buttons that people slam down in Quiz Shows if they know the answer. I always wanted to have one - even though I didn&amp;rsquo;t know what to actually build with it at that point.
+The Arcade Button I found on Amazon
+After the button was sitting in a drawer for several weeks, one day while listening to music, I got an inspiration: Wouldn&amp;rsquo;t it be cool to slam down a button to turn the music on and off?</description>
+    </item>
+    
+    <item>
+      <title>Voyager Golden Record</title>
+      <link>https://liftingcoder.com/voyager-golden-record/</link>
+      <pubDate>Tue, 02 Apr 2024 15:18:23 +0100</pubDate>
+      
+      <guid>https://liftingcoder.com/voyager-golden-record/</guid>
+      <description>Vor ein paar Monaten las ich zufällig einen Artikel darüber, dass Voyager 1 nun (endgültig?) die Kommunikation mit der Erde eingestellt hat. Obwohl mich die Raumfahrt schon immer interessiert hat und ich mir da gerne die eine oder andere Dokumentation dazu angeschaue, würde ich mich jetzt selbst nicht als Raumfahrt Nerd bezeichnen. Doch irgendwie führte der Artikel dazu, dass ich auf dem Wikipedia Eintrag der Voyager Raumsonden landete und da erstmal eine Weile festhing um mir die Geschichte der Raumsonden durchzulesen.</description>
+    </item>
+    
     <item>
       <title>Laser Cut City Map</title>
       <link>https://liftingcoder.com/laser-cut-city-map/</link>
       <pubDate>Wed, 13 Sep 2023 18:00:00 +0200</pubDate>
+      
       <guid>https://liftingcoder.com/laser-cut-city-map/</guid>
       <description>Since I first saw online images of laser-cut city maps, I knew I wanted to build something like that myself. Now, as a proud owner of an Xtool D1 with an Extension Kit for several months, and with my girlfriend&amp;rsquo;s birthday just around the corner and no gift yet in hand, I realized this would be the perfect opportunity. Choosing the 8th district of Vienna as the motif holds particular significance for my girlfriend, adding a personal touch to the gift.</description>
     </item>
+    
     <item>
       <title>Useless Machine</title>
       <link>https://liftingcoder.com/useless-machine/</link>
       <pubDate>Sun, 16 Jan 2022 16:03:54 +0100</pubDate>
+      
       <guid>https://liftingcoder.com/useless-machine/</guid>
-      <description>I&amp;rsquo;ve always wanted to build my own useless machine. What is a useless machine you ask? It&amp;rsquo;s a simple gadget with a switch that, when flipped on, immediately switches itself off. Sounds like a quirky project, right?&#xA;A Useless Machine in Minecraft&#xA;Even though there are plenty of useless machine designs out there, I wanted mine to differ in these points:&#xA;The device shouldn&amp;rsquo;t drain its battery when not in use.</description>
+      <description>I&amp;rsquo;ve always wanted to build my own useless machine. What is a useless machine you ask? It&amp;rsquo;s a simple gadget with a switch that, when flipped on, immediately switches itself off. Sounds like a quirky project, right?
+A Useless Machine in Minecraft
+Even though there are plenty of useless machine designs out there, I wanted mine to differ in these points:
+The device shouldn&amp;rsquo;t drain its battery when not in use.</description>
     </item>
+    
     <item>
       <title>Mindful Picture Frame</title>
       <link>https://liftingcoder.com/mindful-picture-frame/</link>
       <pubDate>Wed, 28 Jul 2021 10:01:25 +0200</pubDate>
+      
       <guid>https://liftingcoder.com/mindful-picture-frame/</guid>
-      <description>Who knows this problem? Over the years, one has accumulated gigabytes of photos, capturing a snapshot of every moment worth remembering, only to hardly ever look at the photos again. That&amp;rsquo;s how it was for me too - on my Nextcloud Share, there are tens of thousands of photos, neatly organized and sorted, condemned to gather digital dust.&#xA;But I wanted to change that. And thus, the Mindful Picture Frame was born.</description>
+      <description>Who knows this problem? Over the years, one has accumulated gigabytes of photos, capturing a snapshot of every moment worth remembering, only to hardly ever look at the photos again. That&amp;rsquo;s how it was for me too - on my Nextcloud Share, there are tens of thousands of photos, neatly organized and sorted, condemned to gather digital dust.
+But I wanted to change that. And thus, the Mindful Picture Frame was born.</description>
     </item>
+    
   </channel>
 </rss>

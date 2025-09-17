@@ -7,6 +7,7 @@ date = "2021-07-28T10:01:25+02:00"
 #
 # description = "An optional description for SEO. If not provided, an automatically created summary will be used."
 
+thumbnail = "/images/mindful-picture-frame.jpg"
 tags = ["projects",]
 +++
 

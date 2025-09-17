@@ -2,6 +2,7 @@
 title = "Useless Machine"
 date = "2022-01-16T16:03:54+01:00"
 
+thumbnail = "/images/useless-machine-case-top.jpg"
 tags = ["projects"]
 +++
 

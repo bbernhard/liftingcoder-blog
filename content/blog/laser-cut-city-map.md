@@ -1,6 +1,7 @@
 +++
 title = "Laser Cut City Map"
 date = "2023-09-13T18:00:00+02:00"
+thumbnail = "/images/laser-cut-map-finished.jpg"
 
 #
 # description is optional

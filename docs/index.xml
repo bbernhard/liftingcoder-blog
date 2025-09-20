@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2024, Bernhard B.</copyright>
-    <lastBuildDate>Wed, 11 Sep 2024 13:01:25 +0200</lastBuildDate><atom:link href="https://liftingcoder.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2025 09:01:27 +0200</lastBuildDate><atom:link href="https://liftingcoder.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What to do with Prototypes?</title>
+      <link>https://liftingcoder.com/what-to-do-with-prototypes/</link>
+      <pubDate>Wed, 05 Feb 2025 09:01:27 +0200</pubDate>
+      
+      <guid>https://liftingcoder.com/what-to-do-with-prototypes/</guid>
+      <description>If you are developing hardware, you probably know that problem: What to do with all the prototypes? Let&amp;rsquo;s be honest nothing ever works the first time. So, one usually ends up with multiple prototypes showing the various stages of the final piece. In the past my &amp;ldquo;solution&amp;rdquo; was to throw all the prototypes in a bin and put them in deep storage.
+Over the years however I realized that not only the final product counts, but also the knowledge and experiences one has gained working on it.</description>
+    </item>
+    
     <item>
       <title>Music Button</title>
       <link>https://liftingcoder.com/music-button/</link>

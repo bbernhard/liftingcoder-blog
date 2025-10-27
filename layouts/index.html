@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="posts">
+  {{ range .Site.RegularPages.ByDate.Reverse }}
+    {{ if not .Params.hide }}
+      <article class="post">
+
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+
+        {{ with .Params.thumbnail }}
+          <img class="thumbnail" src="{{ . | relURL }}" alt="{{ $.Title }}">
+        {{ end }}
+
+        <p>
+          {{ with .Summary }}
+            {{ . }}
+          {{ else }}
+            {{ .Plain | truncate 200 }}
+          {{ end }}
+        </p>
+
+        <a class="read-more" href="{{ .RelPermalink }}">Read more →</a>
+
+      </article>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

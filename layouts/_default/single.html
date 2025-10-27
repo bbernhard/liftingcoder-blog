@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ if eq .Type "blog" }}
+    {{ if not .Params.menu }}
+      <header class="blog-header">
+        <h1 class="blog-page-title">{{ .Title }}</h1>
+        <time class="blog-post-date" datetime="{{ .Date.Format "2006-01-02" }}" pubdate>
+          {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+        </time>
+      </header>
+    {{ end }}
+  {{ end }}
+
+  <article>
+    {{ .Content }}
+  </article>
+
+{{ end }}

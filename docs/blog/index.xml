@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2024, Bernhard B.</copyright>
-    <lastBuildDate>Fri, 24 Oct 2025 13:01:25 +0200</lastBuildDate><atom:link href="https://liftingcoder.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Mar 2026 13:01:25 +0200</lastBuildDate><atom:link href="https://liftingcoder.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ipfire, Unifi and Sonos speakers</title>
+      <link>https://liftingcoder.com/ipfire-unifi-and-sonos-speakers/</link>
+      <pubDate>Tue, 10 Mar 2026 13:01:25 +0200</pubDate>
+      
+      <guid>https://liftingcoder.com/ipfire-unifi-and-sonos-speakers/</guid>
+      <description>I don&amp;rsquo;t like Sonos Speaker. In my opinion they are overpriced and their App is buggy. However, my girlfriend owns three Sonos Speaker and when we moved together I had to integrate them into my home network. Initially I just connected them via WiFi. That was working fine for several months. However, at one point the Sonos App couldn&amp;rsquo;t find the speakers anymore. No matter how often I did reset the speakers, they just didn&amp;rsquo;t show up in the app anymore.</description>
+    </item>
+    
     <item>
       <title>Loc-Line Webcam Mount</title>
       <link>https://liftingcoder.com/loc-line-webcam-mount/</link>

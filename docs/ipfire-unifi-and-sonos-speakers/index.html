@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta content="Projects and other stuff" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://liftingcoder.com/images/favicon.png" />
+<title>Ipfire, Unifi and Sonos speakers | Liftingcoder Blog</title>
+<meta name="title" content="Ipfire, Unifi and Sonos speakers" />
+<meta name="description" content="I don&rsquo;t like Sonos Speaker. In my opinion they are overpriced and their App is buggy. However, my girlfriend owns three Sonos Speaker and when we moved together I had to integrate them into my home network. Initially I just connected them via WiFi. That was working fine for several months. However, at one point the Sonos App couldn&rsquo;t find the speakers anymore. No matter how often I did reset the speakers, they just didn&rsquo;t show up in the app anymore." />
+<meta name="keywords" content="projects," />
+
+
+<meta property="og:title" content="Ipfire, Unifi and Sonos speakers" />
+<meta property="og:description" content="I don&rsquo;t like Sonos Speaker. In my opinion they are overpriced and their App is buggy. However, my girlfriend owns three Sonos Speaker and when we moved together I had to integrate them into my home network. Initially I just connected them via WiFi. That was working fine for several months. However, at one point the Sonos App couldn&rsquo;t find the speakers anymore. No matter how often I did reset the speakers, they just didn&rsquo;t show up in the app anymore." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://liftingcoder.com/ipfire-unifi-and-sonos-speakers/" /><meta property="og:image" content="https://liftingcoder.com/images/share.png"/><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2026-03-10T13:01:25+02:00" />
+<meta property="article:modified_time" content="2026-03-10T13:01:25+02:00" /><meta property="og:site_name" content="Liftingcoder Blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://liftingcoder.com/images/share.png"/>
+
+<meta name="twitter:title" content="Ipfire, Unifi and Sonos speakers"/>
+<meta name="twitter:description" content="I don&rsquo;t like Sonos Speaker. In my opinion they are overpriced and their App is buggy. However, my girlfriend owns three Sonos Speaker and when we moved together I had to integrate them into my home network. Initially I just connected them via WiFi. That was working fine for several months. However, at one point the Sonos App couldn&rsquo;t find the speakers anymore. No matter how often I did reset the speakers, they just didn&rsquo;t show up in the app anymore."/>
+
+
+
+<meta itemprop="name" content="Ipfire, Unifi and Sonos speakers">
+<meta itemprop="description" content="I don&rsquo;t like Sonos Speaker. In my opinion they are overpriced and their App is buggy. However, my girlfriend owns three Sonos Speaker and when we moved together I had to integrate them into my home network. Initially I just connected them via WiFi. That was working fine for several months. However, at one point the Sonos App couldn&rsquo;t find the speakers anymore. No matter how often I did reset the speakers, they just didn&rsquo;t show up in the app anymore."><meta itemprop="datePublished" content="2026-03-10T13:01:25+02:00" />
+<meta itemprop="dateModified" content="2026-03-10T13:01:25+02:00" />
+<meta itemprop="wordCount" content="367"><meta itemprop="image" content="https://liftingcoder.com/images/share.png"/>
+<meta itemprop="keywords" content="projects," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Liftingcoder Blog</h2>
+</a>
+<nav>
+
+</nav>
+</header>
+  <main>
+  
+    
+      <header class="blog-header">
+        <h1 class="blog-page-title">Ipfire, Unifi and Sonos speakers</h1>
+        <time class="blog-post-date" datetime="2026-03-10" pubdate>
+          10 Mar, 2026
+        </time>
+      </header>
+    
+  
+
+  <article>
+    <p>I don&rsquo;t like Sonos Speaker. In my opinion they are overpriced and their App is buggy. However, my girlfriend owns three Sonos Speaker and when we moved together I had to integrate them into my home network. Initially I just connected them via WiFi. That was working fine for several months. However, at one point the Sonos App couldn&rsquo;t find the speakers anymore. No matter how often I did reset the speakers, they just didn&rsquo;t show up in the app anymore. I did a bit of research and it turned out that it could be related to the Wifi Settings. I am using Unifi Access Points and Sonos seems to be a bit picky when it comes to the Wireless Radio settings. I tried to play with the Wifi Settings for several hours, but no matter what I did, I couldn&rsquo;t reliably connect the speakers.</p>
+<p>After wasting a whole afternoon, I got frustrated and ordered a bunch of network cables to connect them all via cable. I was pretty confident that this would finally solve the connection problems once and for all.The more I was surprised when I still couldn&rsquo;t find the Sonos speakers in the Sonos App. What is going on here? That doesn&rsquo;t make any sense.</p>
+<p>At this point you must know that I am using Ipfire - a zone based firewall - which per default uses different zones (=subnets) for wired and wireless connections. One of their core principles is, that devices in the <code>BLUE</code> zone (the zone for wireless devices) per default can&rsquo;t reach the devices in the <code>GREEN</code> zone (the zone for wired devices). But although I&rsquo;ve created a firewall rule to allow traffic from the Sonos App on my smartphone to the Sonos Speakers, the Sonos App still didn&rsquo;t find any devices. That was weird. What&rsquo;s going on here?</p>
+<p>After a bit more research it turned out that Sonos uses mDNS for the device discovery. The problem was, that the mDNS messages aren&rsquo;t broadcasted across interfaces. However, this can easily be solved by installing the <a href="https://www.ipfire.org/docs/addons/mdns-repeater">mdns-repeater</a> Addon from the Ipfire Package manager. This package re-broadcasts mDNS messages from one interface to another. After installing this package everything is finally working again.</p>
+
+  </article>
+
+
+  </main>
+  <footer><a href="https://github.com/bbernhard">Github</a>
+</footer><style>
+
+.right-image {
+  float:right;
+  max-width: 40%;
+  margin-left: 5px
+}
+
+.left-image {
+  float:left;
+  max-width: 40%;
+  margin-right: 20px
+}
+
+.center-image {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+</style>
+</body>
+
+</html>

@@ -57,12 +57,12 @@ body {
 
 /* Links */
 a {
-  color: #FFF;
+  color: #FFD580;
   text-decoration: none;
 }
 
 a:hover {
-  color: #CCC;
+  color: #FFA500;
 }
 
 /* Responsive: optional if you want thumbnail smaller on mobile */
